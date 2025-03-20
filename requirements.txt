@@ -1,0 +1,13 @@
+--extra-index-url https://download.pytorch.org/whl/cu118
+
+# PyTorch packages
+torch
+torchvision
+torchaudio
+
+# Other packages from PyPI
+transformers
+datasets
+huggingface_hub
+protobuf
+openai

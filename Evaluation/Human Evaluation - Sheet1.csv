@@ -1,0 +1,165 @@
+Task ID,Correctness,Structure,Legibility,Documentation,Score,Comments
+0,5,5,5,5,5,
+1,5,5,5,5,5,
+2,5,5,5,5,5,
+3,5,5,5,5,5,
+4,5,5,5,5,5,
+5,5,5,5,5,5,
+6,5,5,5,5,5,
+7,5,5,5,4,4.85,
+8,5,5,5,4,4.85,
+9,5,5,5,5,5,
+10,2,5,4,4,3.45,"Solution is incorrect, no clear way to work towards correct solution"
+11,5,5,5,4,4.85,
+12,5,5,5,4,4.85,
+13,5,5,5,4,4.85,"Should mention this is euclidean algorithm, for some ppl who don't know"
+14,5,5,5,4,4.85,Altough I would say this way for computing is very inefficient
+15,5,5,5,4,4.85,
+16,5,5,5,4,4.85,
+17,5,5,5,4,4.85,
+18,5,5,5,5,5,Has atleast 1 comment
+19,5,5,5,4,4.85,
+20,4,5,5,5,4.6,"No need to sort, not wrong but not perfect"
+21,5,5,5,5,5,
+22,5,5,5,5,5,
+23,5,5,5,4,4.85,
+24,4,5,5,5,4.6,First do the prime check could reduce time complexity
+25,5,5,5,4,4.85,Should mention the approah is trial division
+26,5,5,5,4,4.85,
+27,5,5,5,4,4.85,
+28,5,4,5,4,4.6,
+29,5,4,5,4,4.6,
+30,5,5,5,4,4.85,
+31,5,4,3,5,4.35,
+32,2,3,3,3,2.6,
+33,5,4,4,4,4.4,
+34,5,3,4,4,4.15,
+35,5,5,5,4,4.85,
+36,5,3,5,4,4.35,
+37,5,5,5,4,4.85,
+38,5,4,3,2,3.9,
+39,4,5,5,4,4.45,
+40,5,4,4,4,4.4,
+41,5,5,5,5,5,
+42,5,5,5,5,5,
+43,5,5,4,5,4.8,
+44,5,5,5,5,5,
+45,5,5,5,4,4.85,
+46,5,5,4,5,4.8,
+47,5,4,4,5,4.55,
+48,4,5,5,4,4.45,
+49,4,4,4,5,4.15,
+50,0,0,0,0,0,
+51,5,5,4,5,4.8,
+52,5,4,5,4,4.6,
+53,5,5,5,5,5,
+54,2,4,5,5,3.55,A single change can fix this code (casting input variables to set) but not trivial
+55,5,4,4,5,4.55,
+56,5,5,5,5,5,
+57,5,5,3,3,4.3,
+58,5,5,4,5,4.8,
+59,5,5,5,5,5,
+60,5,5,5,5,5,
+61,5,5,4,5,4.8,
+62,5,5,4,4,4.65,
+63,5,5,4,4,4.65,
+64,5,4,4,4,4.4,
+65,3,5,4,4,3.85,ignored conditional expression at the end of prompt
+66,5,5,5,4,4.85,
+67,2,3,4,3,2.8,"mistake in code, parts[4] -> parts[3]"
+68,5,4,4,4,4.4,
+69,5,5,4,4,4.65,
+70,5,4,5,5,4.75,
+71,5,5,5,4,4.85,
+72,5,5,4,4,4.65,
+73,5,5,4,4,4.65,
+74,5,5,4,4,4.65,
+75,5,4,3,3,4.05,
+76,5,5,5,4,4.85,
+77,5,4,4,4,4.4,
+78,5,5,5,4,4.85,
+79,5,5,5,5,5,
+80,5,5,3,3,4.3,comments should use input strings
+81,5,3,2,2,3.45,"better off using pattern matching, docstring uses wrong method"
+82,5,5,5,4,4.85,missing additional comments
+83,5,5,5,4,4.85,missing additional comments
+84,5,5,4,4,4.65,could have more comments and naming is not really suggestive
+85,5,5,5,5,5,
+86,5,5,5,4,4.85,missing comments
+87,5,5,4,4,4.65,missing comments and naming is not really suggestive
+88,5,5,4,4,4.65,missing comments and naming is not really suggestive
+89,5,5,5,5,5,
+90,5,5,5,5,5,
+91,5,4,5,5,4.75,"a bit clustered the code, but contains more comments that are useful for understanding"
+92,5,5,5,5,5,
+93,2,4,4,4,3.2,Incorrect vowel shift and case handling.
+94,5,3,5,4,4.35,"hard to understand structure, would be useful to have more comments"
+95,5,5,5,4,4.85,more comments are needed - not easy to understand
+96,5,5,5,4,4.85,more comments are needed - not easy to understand
+97,5,5,5,5,5,
+98,5,5,5,5,5,
+99,5,5,5,5,5,
+100,5,4,5,4,4.6,more comments are needed - not easy to understand
+101,5,5,5,5,5,
+102,5,4,4,5,4.55,names not most suggestive and weird formating
+103,5,5,5,4,4.85,more comments are needed - not easy to understand
+104,5,5,5,5,5,
+105,5,5,5,4,4.85,more comments are needed - not easy to understand
+106,5,4,5,5,4.75,structure is messy
+107,5,5,5,5,5,
+108,5,5,5,4,4.85,more comments are needed - not easy to understand
+109,5,4,3,2,3.9,
+110,5,5,5,4,4.85,
+111,5,5,5,4,4.85,
+112,5,5,5,4,4.85,
+113,5,5,5,4,4.85,
+114,5,4,5,4,4.6,
+115,4,5,5,4,4.45,correct but constraints not implemented
+116,2,5,5,4,3.65,Incorrect for negative numbers
+117,5,5,5,5,5,
+118,5,5,5,4,4.85,
+119,5,5,5,5,5,
+120,3,5,5,2,3.75,< this one is wrong: doesn't consider k=0 case
+121,4,5,5,4,4.45,"< this one is wrong: range() expression should start at index 0, not 1"
+122,5,5,4,2,4.35,
+123,5,4,4,2,4.1,
+124,5,5,5,2,4.55,
+125,4,5,5,2,4.15,"< this one is wrong: ord() function doesnt work as described in prompt, more an error in the prompt"
+126,5,5,5,2,4.55,
+127,4,5,5,2,4.15,< this one is wrong: off-by-one-error by using number of elements in range vs. length of range
+128,5,4,5,2,4.3,
+129,3,4,4,2,3.3,< this one is wrong: starts with empty min-path
+130,3,4,5,3,3.65,< this one is wrong: unclear
+131,5,5,5,2,4.55,
+132,3,5,5,3,3.9,< this one is wrong: question is odd and confusing
+133,5,5,5,3,4.7,
+134,4,5,5,2,4.15,< this one is wrong: bugged for strings of length 1
+135,5,4,5,2,4.3,easier solve: iterate right-to-left and grab first one
+136,5,5,5,3,4.7,
+137,5,5,5,3,4.7,
+138,5,5,5,5,5,
+139,5,5,5,2,4.55,
+140,3,5,5,2,3.75,"< this one is wrong: poorly worded question, not following example"
+141,5,5,5,2,4.55,
+142,5,5,5,2,4.55,
+143,5,5,5,3,4.7,
+144,5,5,5,2,4.55,
+145,4,5,5,2,4.15,"< this one is wrong: terrible question design, Gemini does it correctly but the question designer thinks the sum of the digits of ""-45"" equals ""-4 + 5"" instead of ""4 + 5"""
+146,5,5,5,3,4.7,
+147,4,4,3,1,3.35,
+148,5,5,5,3,4.7,
+149,5,5,5,3,4.7,
+150,5,5,5,3,4.7,
+151,5,5,5,3,4.7,
+152,5,5,5,3,4.7,
+153,5,5,5,2,4.55,
+154,5,5,5,3,4.7,
+155,5,5,5,3,4.7,
+156,5,4,4,1,3.95,
+157,5,5,5,4,4.85,
+158,5,5,5,2,4.55,
+159,5,5,5,3,4.7,
+160,2,5,4,2,3.15,< this one is wrong: doesn't account for order of mathematical operators
+161,5,5,5,2,4.55,
+162,5,5,5,2,4.55,
+163,5,4,4,2,4.1,

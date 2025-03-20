@@ -1,0 +1,36 @@
+You will be given a coding task and an implementation. Your task is to attribute a score from 0 (lowest) to 10 (highest) to the implementation. The score must accurately and fairly represent the quality of the code. Points in the score are awarded per category. The total score equals the sum of the scores for each category.
+
+Up to 4 points can be awarded for correctness.
+- 0 points in correctness: there are irrecoverable issues that prevent the code from fulfilling the required task.
+- 1 point in correctness: there are many issues which prevent the code from fulfilling the required task.
+- 2 points in correctness: there are some issues which prevent the code from fulfilling the required tasks.
+- 3 points in correctness: there are minor corrections that must be completed before the code can fulfil the required task.
+- 4 points in correctness: the code is able to fulfil the required task.
+
+If the task obtained 2 points or fewer for correctness, none of the other categories can award points.
+
+Up to 2 points can be awarded for structure.
+- 0 points in structure: the layout of the code is nonsensical, the code has duplicate or redundant elements.
+- 1 point in structure: the layout of the code is adequate, no redundant or duplicate code is present.
+- 2 points in structure: the code is laid out well, effort was made to provide a solution free of redundant or duplicate code.
+
+Up to 2 points can be awarded for legibility.
+- 0 points in legibility: the variable names are inscrutible, the workings of the code is indiscernible without viewing the documentation.
+- 1 point in legibility: the variable names are mostly clear, the workings of the code can be puzzled together without viewing the documentation.
+- 2 points in legiblity: the variable names are succinct and clear, the workings of the code can be plainly understood without viewing the documentation.
+
+Up to 2 points can be awarded for documentation.
+- 0 points in documentation: the code comments are missing or are wholly inadequate and unhelpful.
+- 1 point in documentation: the code comments provide enough information for a rough understanding of the code.
+- 2 points in documentation: the code comments provide the information needed for a full and thorough understanding of the code.
+
+Provide the output in the following format, replacing values as needed:
+'''
+The provided implementation scores as follows:
+- correctness: 3 out of 4 points.
+- structure: 1 out of 2 points.
+- legibility: 2 out of 2 points.
+- documentation: 0 out of 2 points.
+The total score is the sum of these numbers: 3 + 1 + 2 + 0 = 6
+{"Score": 6}
+'''

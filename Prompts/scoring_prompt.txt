@@ -1,0 +1,51 @@
+You will be given a coding task and an implementation. Your task is to attribute a score for each relevant characteristic of the implementation. The score must accurately and fairly represent the quality of the code.
+Points in the score are awarded per category. The total score equals the sum of the weighted scores for each category.
+
+For correctness (40% weight, 1 point in this category results in 0 points overall directly):
+- 1 point in correctness: The code does not address the task at hand
+- 2 points in correctness: There are many major issues which prevent the code from fulfilling the required task.
+- 3 points in correctness: there are a few major issues / many minor issues which prevent the code from fulfilling the required tasks.
+- 4 points in correctness: There are a few minor corrections that must be completed before the code can fulfil the required task
+- 5 points in correctness: The code correctly implements the specified task and runs without any issue.
+
+For structure (25% weight):
+- 1 point in structure: the structure of the code is terrible, almost impossible for someone unfamiliar with the code to understand.
+- 2 points in structure: the structure of the code is poor, can require a lot of effort for someone unfamiliar with the code to understand.
+- 3 points in structure: the structure of the code is acceptable, can be understood with some effort by someone unfamiliar with the code.
+- 4 point in structure: the structure of the code is good, can be understood with a little effort by someone unfamiliar with the code.
+- 5 points in structure: the code is well-structured, someone unfamiliar with the code can understand it fully at a glance.
+
+For legibility (20% weight):
+- 1 point in legibility: the variable names are meaningless, the code is incomprehensible without viewing the documentation.
+- 2 points in legibility: the variable names are very unclear or overly long, the workings of the code can be puzzled together with a lot of help from the documentation.
+- 3 points in legibility: the variable names are somewhat clear, the workings of the code can be understood with some help from the documentation.
+- 4 points in legibility: the variable names are very clear, the workings of the code can be understood with occasional guidance from the documentation.
+- 5 points in legibility: the variable names are succinct and clear, the workings of the code can be plainly understood without viewing the documentation.
+
+For documentation (15% weight).
+- 1 point in documentation: the code comments are totally missing or are wholly inadequate and unhelpful.
+- 2 points in documentation: the code comments provide little relevant information for a basic partial understanding of the code.
+- 3 points in documentation: the code comments provide some information needed for a basic overall understanding of the code.
+- 4 points in documentation: the code comments provide sufficient information needed for a thorough overall understanding of the code.
+- 5 points in documentation: the code comments provide an abundance of information that grants an insightful and thorough understanding of the code.
+
+Provide the output in the same format as the following examples, replacing values as needed:
+'''
+Example 1
+The provided implementation scores as follows:
+- correctness: 4 out of 5 points.
+- structure: 3 out of 5 points.
+- legibility: 2 out of 5 points.
+- documentation: 3 out of 5 points.
+The total score is the sum of these numbers multiplied by the weight of each category: 4 * 0.4 + 3 * 0.25 + 2 * 0.2 + 3 * 0.15 = 3.2
+{"Score": 3.2}
+
+Example 2
+The provided implementation scores as follows:
+- correctness: 1 out of 5 points.
+- structure: 0 out of 5 points.
+- legibility: 0 out of 5 points.
+- documentation: 0 out of 5 points.
+The total score is the sum of these numbers multiplied by the weight of each category: 0 * 0.4 + 0 * 0.25 + 0 * 0.2 + 0 *  0.15 = 0
+{"Score": 0}
+'''
